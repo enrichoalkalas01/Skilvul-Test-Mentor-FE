@@ -1,0 +1,135 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#homepages {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#homepages .text-box {
+    width: auto;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+#homepages .text-box h1 {
+    text-transform: uppercase;
+}
+
+#homepages .images-box {
+    width: 50%;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#homepages .images-box img {
+    width: 100%;
+    height: auto;
+}
+
+#homepages .link-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#homepages .link-box a {
+    margin-bottom: 20px;
+}
+
+#search-page {
+    width: 100%;
+    padding: 2.5% 0;
+    position: relative;
+}
+
+#search-page .title-box {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#search-page .search-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#list-giphy {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+#list-giphy .box-data {
+    width: 33.3%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+#list-giphy .box-data .wrapper-data {
+    width: 100%;
+}
+
+#list-giphy .box-data .wrapper-data {
+    width: 100%;
+}
+
+#list-giphy .box-data .wrapper-data .box-images {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#list-giphy .box-data .wrapper-data .box-images img {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1366px) {
+    #list-giphy .box-data {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #list-giphy .box-data {
+        width: 33.3%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #list-giphy .box-data {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    #list-giphy .box-data {
+        width: 100%;
+    }
+}
